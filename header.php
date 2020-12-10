@@ -12,6 +12,7 @@
     <!-- custom link-->
     <link rel="stylesheet" href="style.css">
     <title>E-commerce</title>
+    <?php require ('./functions.php'); ?>
 </head>
 <body>
     <!-- header -->
