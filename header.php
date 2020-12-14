@@ -54,7 +54,7 @@
               <form action="#" class="font-size-14 font-barlow">
                   <a href="http:cyrilrufin.me/e-commerce/cart.html" class="py-2 rounded-pill color-primary-bg">
                     <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
-                    <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    <span class="px-3 py-2 rounded-pill text-dark bg-light"><?= count($product->getProducts('cart')) ?></span>
                   </a>
               </form>
             </div>

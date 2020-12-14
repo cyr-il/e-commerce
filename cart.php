@@ -1,5 +1,6 @@
 <?php 
 // header
+ob_start();
 include ('./header.php');
 //cart
 include ('templates/cart.tpl.php');
